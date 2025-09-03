@@ -1,5 +1,5 @@
-const characters = ' -0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwyz';
-const targetText = "TOM7x";
+const characters = ' -0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+const targetText = "TOM7Xploit";
 const container = document.getElementById("MATRIX");
 function animateChar(targetChar, index) {
   const span = document.createElement("span");
@@ -14,7 +14,7 @@ function animateChar(targetChar, index) {
     } else {
       currentIndex = (currentIndex + 1) % characters.length;
       }
-  }, 115);
+  }, 200);
 }
     [...targetText].forEach((char, i) => {
       setTimeout(() => animateChar(char, i), i * 500);
