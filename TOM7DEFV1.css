@@ -1,68 +1,135 @@
 body {
-  background: #000;
+  background: black;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  overflow-x: hidden;  
 }
 
-.MAIN {
+.CONTAINER {
   position: relative;
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 1px;
-  line-height: 1;
-  padding: 15px;
-  margin-top: 10px;
-  gap: 30px; /* jarak antar elemen */
+  margin: 20px;
+  padding: 0px;
+  z-index: 1;
+  line-height: 1.3;
 }
 
 .LOGO {
-  background-color: black;
-  border-radius: 50%;
+  background: white;
+  background-image: url('https://j.top4top.io/p_3531qi8oz0.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0%;
+  height: 150px;
+  width: 150px;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  animation: rollRandom 5s ease-in-out;
 }
 
-.LOGO img {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-}
-
-.USER {
-  font-family: "New Rocker", cursive;
-  font-size: 2.1rem;
-  color: navy;
+.WHOAMI {
+  font-family: Orbitron;
+  font-size: 25px;
+  color: white;
   text-align: center;
-  letter-spacing: 1px;
+  text-shadow: 0px 0px 10px red;
+  letter-spacing: 5px;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+  animation: glitchText 1s infinite;
 }
 
-.glitch {
-  font-family: "New Rocker", cursive;
-  font-size: 2rem;
-  color: cyan;
+.GROUP {
+  font-family: Orbitron;
+  font-size: 21px;
+  color: white;
   text-align: center;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 1px red;
+  text-shadow: 0px 0px 10px red;
+  letter-spacing: 5px;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  animation: rollRandom 10s ease-in-out;
 }
 
-.MESSAGES {
-  font-family: Poppins, sans-serif;
-  font-size: 1rem;
+.MSG {
+  font-family: Orbitron;
+  font-size: 15px;
   font-style: italic;
   color: white;
   text-align: center;
+  letter-spacing: 1;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
 }
-
+    
 .TEAM {
-  font-family: "New Rocker", cursive;
-  font-size: 1.2rem;
-  color: red;
+  font-family: "New Rocker";
+  font-size: 15px;
+  color: #fff;
   text-align: center;
-  text-shadow: 1px 1px 1px #c90f;
+  text-shadow: 1px 1px 15px #f30202;
+  letter-spacing: 1;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
 }
 
-.AUDIO {
-  height: auto;
+.MUSIC {
+  height: 50px;
   width: 300px;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+}
+
+.COPY {
+  font-family: Orbitron;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 10px red;
+  letter-spacing: 1;
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+}
+
+@keyframes rollRandom {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(300px, -200px) rotate(180deg);
+  }
+  50% {
+    transform: translate(-250px, 150px) rotate(360deg);
+  }
+  75% {
+    transform: translate(200px, 100px) rotate(540deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(720deg);
+  }
+}
+
+@keyframes glitchText {
+  0% {
+    text-shadow: 2px 1px #ff0000, -2px -1px #00ffff, 2px -1px #ff00ff;
+  }
+  20% {
+    text-shadow: -2px 1px #ff0000, 2px -1px #00ffff, -2px 1px #ff00ff;
+  }
+  40% {
+    text-shadow: 2px -1px #ff0000, -2px 1px #00ffff, 2px 1px #ff00ff;
+  }
+  60% {
+    text-shadow: -2px -1px #ff0000, 2px 1px #00ffff, -2px -1px #ff00ff;
+  }
+  80% {
+    text-shadow: 2px 1px #ff0000, -2px -1px #00ffff, 2px -1px #ff00ff;
+  }
+  100% {
+    text-shadow: 0 0 #ff0000, 0 0 #00ffff, 0 0 #ff00ff;
+  }
 }
