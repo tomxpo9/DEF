@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: #000;
   margin: 0;
   padding: 0;
   overflow-x: hidden;  
@@ -11,87 +11,87 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 20px;
-  padding: 0px;
+  margin: 10px;
+  padding: 10px;
   z-index: 1;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .LOGO {
-  background: white;
-  background-image: url('https://j.top4top.io/p_3531qi8oz0.jpg');
+  background: #fff;
+  background-image: url('https://h.top4top.io/p_3534jvl8b0.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 0%;
-  height: 150px;
-  width: 150px;
-  margin-top: 0vh;
+  height: 200px;
+  width: 220px;
+  margin-top: 10vh;
   margin-bottom: 0vh;
   animation: rollRandom 5s ease-in-out;
 }
 
 .WHOAMI {
   font-family: Orbitron;
-  font-size: 25px;
-  color: white;
+  font-size: 1.3rem;
+  color: #fff;
   text-align: center;
-  text-shadow: 0px 0px 10px red;
+  text-shadow: 0px 0px 10px #ee0505;
   letter-spacing: 5px;
-  margin-top: 2vh;
+  margin-top: 5vh;
   margin-bottom: 0vh;
   animation: glitchText 1s infinite;
 }
 
 .GROUP {
   font-family: Orbitron;
-  font-size: 21px;
-  color: white;
+  font-size: 1.25rem;
+  color: #fff;
   text-align: center;
-  text-shadow: 0px 0px 10px red;
+  text-shadow: 0px 0px 10px #ee0505;
   letter-spacing: 5px;
-  margin-top: 0vh;
+  margin-top: 5vh;
   margin-bottom: 0vh;
   animation: rollRandom 10s ease-in-out;
 }
 
 .MSG {
-  font-family: Orbitron;
-  font-size: 15px;
+  font-family: Poppins;
+  font-size: 1rem;
   font-style: italic;
-  color: white;
+  color: #fff;
   text-align: center;
   letter-spacing: 1;
-  margin-top: 2vh;
+  margin-top: 5vh;
   margin-bottom: 0vh;
 }
     
 .TEAM {
   font-family: "New Rocker";
-  font-size: 15px;
+  font-size: 1rem;
   color: #fff;
   text-align: center;
   text-shadow: 1px 1px 15px #f30202;
   letter-spacing: 1;
-  margin-top: 2vh;
+  margin-top: 5vh;
   margin-bottom: 0vh;
 }
 
 .MUSIC {
   height: 50px;
   width: 300px;
-  margin-top: 2vh;
+  margin-top: 5vh;
   margin-bottom: 0vh;
 }
 
 .COPY {
   font-family: Orbitron;
-  font-size: 15px;
-  color: white;
+  font-size: 1rem;
+  color: #fff;
   text-align: center;
-  text-shadow: 0px 0px 10px red;
+  text-shadow: 0px 0px 10px #ee0505;
   letter-spacing: 1;
-  margin-top: 2vh;
+  margin-top: 5vh;
   margin-bottom: 10vh;
 }
 
