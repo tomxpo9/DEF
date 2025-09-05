@@ -14,84 +14,84 @@ body {
   margin: 10px;
   padding: 10px;
   z-index: 1;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .LOGO {
   background: #fff;
-  background-image: url('https://h.top4top.io/p_3534jvl8b0.jpg');
+  background-image: url('https://b.top4top.io/p_3534fwfss0.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 0%;
-  height: 200px;
-  width: 220px;
+  height: 150px;
+  width: 150px;
   margin-top: 10vh;
   margin-bottom: 0vh;
   animation: rollRandom 5s ease-in-out;
 }
 
 .WHOAMI {
-  font-family: Orbitron;
-  font-size: 1.3rem;
+  font-family: "Iceland";
+  font-size: 2rem;
   color: #fff;
   text-align: center;
   text-shadow: 0px 0px 10px #ee0505;
   letter-spacing: 5px;
-  margin-top: 5vh;
+  margin-top: 2vh;
   margin-bottom: 0vh;
   animation: glitchText 1s infinite;
 }
 
 .GROUP {
-  font-family: Orbitron;
+  font-family: "Iceland";
   font-size: 1.25rem;
   color: #fff;
   text-align: center;
   text-shadow: 0px 0px 10px #ee0505;
   letter-spacing: 5px;
-  margin-top: 5vh;
+  margin-top: 1vh;
   margin-bottom: 0vh;
   animation: rollRandom 10s ease-in-out;
 }
 
 .MSG {
-  font-family: Poppins;
+  font-family: "Iceland";
   font-size: 1rem;
   font-style: italic;
   color: #fff;
   text-align: center;
-  letter-spacing: 1;
-  margin-top: 5vh;
+  letter-spacing: 1px;
+  margin-top: 1vh;
   margin-bottom: 0vh;
 }
     
 .TEAM {
-  font-family: "New Rocker";
+  font-family: "Iceland";
   font-size: 1rem;
-  color: #fff;
+  color: #f30202;
   text-align: center;
-  text-shadow: 1px 1px 15px #f30202;
-  letter-spacing: 1;
-  margin-top: 5vh;
+  text-shadow: 0px 0px 15px #fdec13;
+  letter-spacing: 2px;
+  margin-top: 3vh;
   margin-bottom: 0vh;
 }
 
 .MUSIC {
   height: 50px;
   width: 300px;
-  margin-top: 5vh;
+  margin-top: 2vh;
   margin-bottom: 0vh;
 }
 
 .COPY {
-  font-family: Orbitron;
+  font-family: "Iceland";
   font-size: 1rem;
-  color: #fff;
+  color: #ee0505;
   text-align: center;
   text-shadow: 0px 0px 10px #ee0505;
-  letter-spacing: 1;
-  margin-top: 5vh;
+  letter-spacing: 2px;
+  margin-top: 2vh;
   margin-bottom: 10vh;
 }
 
